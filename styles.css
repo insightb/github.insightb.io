@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página de Vendas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Minha Página de Vendas!</h1>
+        <p>Dicas de como gerir finanças pessoais em Angola.!</p>
+    </header>
+    
+    <section class="produtos">
+        <h2>Produtos</h2>
+        <div class="produto">
+            <h3>Dicas de como gerir finanças pessoais em Angola.</h3>
+            <p>Preço: 500,00 Kz</p>
+            <p>Descrição: Descubra estratégias práticas e eficazes para gerir suas finanças pessoais com sucesso em Angola. Este guia abrangente oferece dicas essenciais sobre orçamento, investimentos, poupança e planejamento financeiro adaptados ao contexto econômico angolano, ajudando você a alcançar estabilidade e prosperidade financeira.</p>
+            <button>Comprar Agora</button>
+        </div>
+        <div class="produto">
+            <h3>Recuperando sua senha do Facebook.</h3>
+            <p>Preço: KZ 500,00</p>
+            <p>Descrição: Passo a passo para recuperação de sua senha.</p>
+            <button>Comprar Agora</button>
+        </div>
+    </section>
+    
+    <footer>
+        <p>© 2024 Minha Página de Vendas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.produtos {
+    padding: 20px;
+}
+
+.produto {
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
